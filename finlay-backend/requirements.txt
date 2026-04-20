@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-groq
-hindsight-sdk
-websockets
-pydantic
-python-dotenv
-yfinance
