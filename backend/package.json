@@ -1,0 +1,23 @@
+{
+  "name": "finlay-backend-mern",
+  "version": "1.0.0",
+  "description": "MERN backend for Finlay AI Trading Platform",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "form-data": "^4.0.5",
+    "groq-sdk": "^0.3.3",
+    "mongoose": "^8.3.2",
+    "multer": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
